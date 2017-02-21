@@ -37,6 +37,7 @@ defmodule PhoenixReact.Mixfile do
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
+     {:elixir_v8, github: "le0pard/elixir_v8"},
      {:cowboy, "~> 1.0"}]
   end
 
